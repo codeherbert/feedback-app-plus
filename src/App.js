@@ -1,10 +1,12 @@
 import React from 'react';
+import Header from './components/Header';
 
 function App() {
   return (    
-    <div>
-      <h1>Feedback UI App</h1>
-    </div>
+    <>
+      <Header />
+      <h2>App Contents</h2>
+    </>
   );
 }
 
