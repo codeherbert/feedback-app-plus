@@ -190,6 +190,7 @@ input:focus {
 .about-link {
   display: flex;
   justify-content: flex-end;
+  margin: 45px 0 20px;
 }
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
@@ -197,6 +198,9 @@ input:focus {
 .about-link a {
   color: #fff;
   cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 6px 6px 0px;
 }
 
 .about-link a:hover {
@@ -227,4 +231,21 @@ input:focus {
   .input-group input {
     width: 80%;
   }
+}
+
+.AboutPage h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.AboutPage .info-one {
+  margin-bottom: 10px;
+}
+
+.AboutPage .info-two {
+  margin-bottom: 30px;
+}
+
+.AboutPage .info-version {
+  font-weight: bold;
 }
