@@ -32,6 +32,11 @@ header {
   margin-bottom: 30px;
 }
 
+.primary-home-link h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .card {
   background-color: #fff;
   color: #333;
@@ -208,6 +213,7 @@ input:focus {
 }
 
 .about h1 {
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -234,8 +240,13 @@ input:focus {
 }
 
 .AboutPage h1 {
+  color: #333333;
   margin-bottom: 15px;
   text-align: center;
+}
+
+.AboutPage a:hover {
+  color: #ff6a95;
 }
 
 .AboutPage .info-one {
