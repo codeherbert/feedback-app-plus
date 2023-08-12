@@ -7,17 +7,17 @@ export const FeedbackProvider = ({children}) => {
     const [feedback, setFeedback] = useState([
         {
             id: 1,
-            text: 'Nice item, very fast service.',
+            text: 'Great communication, and service was fast.',
             rating: 8
         },
         {
             id: 2,
-            text: 'Everything was flawless.',
+            text: 'From beginning to end, everything was flawless!',
             rating: 10
         },
         {
             id: 3,
-            text: 'The service was acceptable',
+            text: 'The service was just as expected.',
             rating: 5
         }
     ]);
